@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-header {
+    height: 70px;
+    width: 84.29em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.logo-image {
+    height: 40px;
+    width: 158px;
+    background-image: url(Images/logo2.svg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+input.search {
+    height: 40px;
+    width: 460px;
+    outline: none;
+    border: none;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-left: -4px;
+    background-color: #f1efef;
+    font-size: 16px;
+}
+button {
+    height: 40px;
+    width: 50px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    outline: none;
+    border: none;
+}
+.log-cart{
+    height: 40px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 20px;  
+}
+#l-c{
+    position: absolute;
+    margin-right: 70px;
+}
+.shop{
+    height: 30px;
+    width: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 18px;
+}
+#sh {
+    position: absolute;
+    margin-right: 155px;
+}
+.three-dot {
+    height: 40px;
+    width: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    height: 71em;
+    width: 84.29em;
+    background-color: #f1efef;
+}
+.grid_sec1 {
+    display: grid;
+    grid-template-rows: repeat(1 , 1fr 32px);
+    grid-template-columns: repeat(9,1fr);
+    height: 128px;
+    grid-column-gap: 50px;
+    background-color: white;
+    margin: 10px 20px;
+    padding-top: 12px;
+    padding: 15px;
+    grid-row-gap: 8px;
+}
+header {
+    background-color: white;
+}
+.surf{
+    background-image: url("Images/surf.webp");
+    background-size: cover;
+}
+.mobile{
+    background-image: url(Images/mobile.jpg);
+    background-size: cover;
+}
+.cloth{
+    background-image: url(Images/images.jpg);
+    background-size: cover;
+}
+.elec{
+    background-image: url(Images/elec.jpeg);
+    background-size: cover;
+}
+.fur{
+    background-image: url(Images/furn.jpeg);
+    background-size: cover;
+}
+.toys{
+    background-image: url(Images/toys.jpeg);
+    background-size: cover;
+}
+.veh{
+    background-image: url(Images/two.jpeg);
+    background-size: cover;
+}
+.nes{
+    background-image: url(Images/nes.jpeg);
+    background-size: cover;
+}
+.choco{
+    background-image: url(Images/choco.png);
+    background-size: cover;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    width: 82em;
+    height: 15em;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-image: url(Images/aeroplane.webp);
+    background-size: cover;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    font-size: 15px;
+}
+.shopsection {
+    height: 4em;
+    width: 69em;
+    background-color: white;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+.heading {
+    font-size: 23px;
+    font-family: math;
+    margin-left: 22px;
+    padding-top: 18px;
+}
+.grid_sec2 {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr 67px);
+    grid-template-columns: repeat(5, 1fr);
+    background-color: white;
+    width: 67.7em;
+    height: 13em;
+    margin-left: 21px;
+    grid-column-gap: 10px;
+    padding: 10px;
+}
+.camera{
+    background-image: url(Images/camera.webp);
+    background-size: cover;
+}
+.comp{
+    background-image: url(Images/computer.jpeg);
+    background-size: cover;
+}
+.kebo{
+    background-image: url(Images/kb.jpeg);
+    background-size: cover;
+}
+.pd{
+    background-image: url(Images/pendrive.jpg);
+    background-size: cover;
+}
+.hs{
+    background-image: url(Images/hairstra.jpg);
+    background-size: cover;
+}
+.detail{
+    font-weight: 700;
+}
+.dt1{
+    text-align: center;
+    margin-top: 15px;
+}
+.image2 {
+    height: 12.65em;
+    width: 8.2em;
+    background-color: aquamarine;
+    margin-left: 47.9em;
+    margin-top: -45px;
+    background-image: url(Images/shopsectionside.webp);
+    background-size: cover;
+}
+.grid_sec3 {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr 67px);
+    grid-template-columns: repeat(5, 1fr);
+    background-color: white;
+    width: 80.79em;
+    height: 16em;
+    margin-left: 21px;
+    grid-column-gap: 10px;
+    padding: 10px;
+    margin-top: 22px;
+}
+.footer{
+    height: 40em;
+    width: 84.29em;
+    background-color: #333;
+    color: white;
+}
+.foot1 {
+    padding: 2em 2em 2em 2em;
+    height: 36em;
+    width: 80.3em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 2em;
+}
