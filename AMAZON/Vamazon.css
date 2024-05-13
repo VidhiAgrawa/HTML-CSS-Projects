@@ -1,0 +1,711 @@
+*{
+    margin: 0;
+    font-family: math;
+}
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo {
+    height: 50px;
+    width: 110px;
+}
+.logo {
+    background-image: url(Images/download.png);
+    background-size: cover;
+    height: 50px;
+    width: 110px;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+}
+/*****box2*****/
+.add1 {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 13px;
+}
+.add2 {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.addicon {
+    display: flex;
+    align-items: center;
+}
+/*****box3*****/
+.navsearch {
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    border: 2px solid transparent;
+}
+.select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid transparent;
+}
+.select:focus-visible{
+    outline: none;
+}
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: 1px solid transparent;
+}
+.input{
+    outline:none;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #FFA33C;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+.navsearch:hover {
+    border: 2px solid orange;
+    border-radius: 8px;
+}
+/* box4 */
+spa{
+    font-size: 0.7rem;
+}
+.nav2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* box6 */
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+}
+/* ** panel ** */
+.nav-main {
+    height: 39px;
+    width: 1349px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+.panelinfo {
+    width: 65%;
+    font-size: 14px;
+    display: flex;
+    margin-left: 10px;
+}
+.downloadapp {
+    font-size: 17px;
+    font-weight: 700;
+}
+.navitem {
+    margin-left: 14px;
+}
+/* main body */
+.main-body {
+    height: 300px;
+    background-image: url(Images/bg1.jpg);
+    background-size: cover;
+}
+/* shop section */
+.shopsection {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F7EFE5;
+}
+.box {
+    height: 470px;
+    width: 23%;
+    background-color: white;
+    margin-top: -27px;
+}
+.b {
+    height: 470px;
+    width: 23%;
+    margin-top: -27px;
+}
+/*** shop section box1 ***/
+.content {
+    height: 60px;
+    width: 258.5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 26.4px;
+    font-weight: 700;
+    font-family: serif;
+}
+.image1 {
+    height: 121px;
+    width: 258px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.i1 {
+    height: 121px;
+    width: 120px;
+    background-image: url(Images/boat.jpg);
+    background-size: cover;
+}
+.i2 {
+    height: 121px;
+    width: 120px;
+    margin-left: 22px;
+    background-image: url(Images/boult.jpg);
+    background-size: cover;
+}
+.Iinfo {
+    width: 258px;
+    height: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.Iinfo1 {
+    font-size: 12px;
+    font-family: math;
+}
+.Iinfo2 {
+    font-family: math;
+    font-size: 12px;
+    margin-left: 39px;
+}
+.image2 {
+    height: 121px;
+    width: 258px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.i3 {
+    height: 121px;
+    width: 120px;
+    background-color: #FFA33C;
+    background-image: url(Images/noise.jpg);
+    background-size: cover;
+}
+.i4 {
+    height: 121px;
+    width: 120px;
+    background-color: #e8bf8de6;
+    margin-left: 22px;
+    background-image: url(Images/zebronics.jpg);
+    background-size: cover;
+}
+.Iinfo {
+    width: 258px;
+    height: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.Iinfo3 {
+    font-size: 12px;
+    font-family: math;
+    margin-top: 13px;
+}
+.Iinfo4 {
+    font-family: math;
+    font-size: 12px;
+    margin-left: 45px;
+    margin-top: 13px;
+}
+.offer1 {
+    height: 35px;
+    width: 258px;
+    margin-top: 30px;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 15px;
+    font-family: math;
+    text-decoration: underline;
+}
+.offer1:hover {
+    color: orangered;
+}
+/**** shop section box2 ****/
+.content2 {
+    height: 60px;
+    width: 258.5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 26.4px;
+    font-weight: 700;
+    font-family: serif;
+}
+.image3 {
+    height: 121px;
+    width: 258px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.i5 {
+    height: 121px;
+    width: 120px;
+    background-image: url(Images/clothing.jpg);
+    background-size: cover;
+}
+.i6 {
+    height: 121px;
+    width: 120px;
+    margin-left: 22px;
+    background-image: url(Images/footwear.webp);
+    background-size: cover;
+}
+.Iinfo {
+    width: 258px;
+    height: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.Iinfo5 {
+    font-size: 12px;
+    font-family: math;
+}
+.Iinfo6 {
+    font-family: math;
+    font-size: 12px;
+    margin-left: 97px;
+}
+.image4 {
+    height: 121px;
+    width: 258px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.i7 {
+    height: 121px;
+    width: 120px;
+    background-color: #FFA33C;
+    background-image: url(Images/watches.webp);
+    background-size: cover;
+}
+.i8 {
+    height: 121px;
+    width: 120px;
+    background-color: #e8bf8de6;
+    margin-left: 22px;
+    background-image: url(Images/bags.webp);
+    background-size: cover;
+}
+.Iinfo {
+    width: 258px;
+    height: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.Iinfo7 {
+    font-size: 12px;
+    font-family: math;
+    margin-top: 13px;
+}
+.Iinfo8 {
+    font-family: math;
+    font-size: 12px;
+    margin-left: 97px;
+    margin-top: 13px;
+}
+.offer2 {
+    height: 35px;
+    width: 258px;
+    margin-top: 30px;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 15px;
+    font-family: math;
+    text-decoration: underline;
+}
+.offer2:hover {
+    color: orangered;
+}
+/**** shop section box3 ****/
+.content3 {
+    height: 60px;
+    width: 258.5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 26.4px;
+    font-weight: 700;
+    font-family: serif;
+}
+.image5 {
+    height: 121px;
+    width: 258px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.i9 {
+    height: 121px;
+    width: 120px;
+    background-color: #FFA33C;
+    background-image: url(Images/ac.jpg);
+    background-size: cover;
+}
+.i10 {
+    height: 121px;
+    width: 120px;
+    background-color: #e8bf8de6;
+    margin-left: 22px;
+    background-image: url(Images/refrigerator.jpg);
+    background-size: cover;
+}
+.Iinfo {
+    width: 258px;
+    height: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.Iinfo9 {
+    font-size: 12px;
+    font-family: math;
+    margin-top: 13px;
+}
+.Iinfo10 {
+    font-family: math;
+    font-size: 12px;
+    margin-left: 127px;
+    margin-top: 13px;
+}
+.image6 {
+    height: 121px;
+    width: 258px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.i11 {
+    height: 121px;
+    width: 120px;
+    background-color: #FFA33C;
+    background-image: url(Images/microwave.jpg);
+    background-size: cover;
+}
+.i12 {
+    height: 121px;
+    width: 120px;
+    background-color: #e8bf8de6;
+    margin-left: 22px;
+    background-image: url(Images/washingmachine.jpg);
+    background-size: cover;
+}
+.Iinfo {
+    width: 258px;
+    height: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.Iinfo11 {
+    font-size: 12px;
+    font-family: math;
+    margin-top: 13px;
+}
+.Iinfo12 {
+    font-family: math;
+    font-size: 12px;
+    margin-left: 85px;
+    margin-top: 13px;
+}
+.offer3 {
+    height: 35px;
+    width: 258px;
+    margin-top: 30px;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 15px;
+    font-family: math;
+    text-decoration: underline;
+}
+.offer3:hover {
+    color: orangered;
+}
+/*** shop section box4 ***/
+.div1 {
+    height: 35%;
+    width: 299px;
+    background-color: white;
+}
+.div2 {
+    height: 60%;
+    width: 300px;
+    background-image: url(Images/laptop.jpg);
+    margin-top: 23px;
+}
+.d1 {
+    font-size: 26.4px;
+    font-family: math;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-left: 18px;
+}
+.d2 {
+    height: 42px;
+    width: 222px;
+    background-color: #FFD814;
+    margin-left: 38px;
+    margin-top: 23px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    overflow: hidden;
+}
+.d2:focus-visible{
+    outline: none;
+}
+.d2:before{
+    content: '';
+    height: 54px;
+    width: 7px;
+    background-color: white;
+    display: block;
+    transform: translate(-26px, -9px) rotate(25deg);
+    filter: blur(1px);
+}
+.d2:hover:before{
+    
+    animation-name: AniMate;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-direction:alternate;    
+}
+@keyframes AniMate {
+    0%{
+        transform: translate(-26px, -9px) rotate(25deg);
+    }
+    40%{
+        transform: translate(230px, -9px) rotate(25deg);
+    }
+    61%{
+        transform: translate(230px, -9px) rotate(25deg);
+    }
+    100%{
+        transform: translate(-26px, -9px) rotate(25deg);
+    }
+}
+vidhu {
+    display: inline;
+    position: relative;
+    top: -42px;
+}
+
+.d3 {
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 53px;
+    position: absolute;
+    margin-top: 11px;
+}
+
+/**** shop section box4 ended ****/
+/**** shop section line 2 started ****/
+.shopsection-line2 {
+    height: 358px;
+    width: 1349px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F7EFE5;
+}
+.l2-box1 {
+    height: 310px;
+    width: 97%;
+    background-color: white;
+    margin-top: 20px;
+}
+.l2-content {
+    height: 60px;
+    width: 348.5px;
+    margin-top: 20px;
+    margin-left: 19px;
+    margin-right: 20px;
+    font-size: 26.4px;
+    font-weight: 700;
+    font-family: serif;
+}
+.deals {
+    height: 35px;
+    width: 258px;
+    margin-top: -51px;
+    margin-left: 368px;
+    align-items: center;
+    font-size: 15px;
+    font-family: math;
+    text-decoration: underline;
+    color: #238183;
+}
+.deals:hover {
+    color: orangered;
+}
+.l2box {
+    height: 214px;
+    width: 1263px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.evenbox {
+    height: 214px;
+    width: 19%;
+    background-color: #ECF4D6;
+}
+.image {
+    height: 183px;
+    width: 210px;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .img1 {
+    height: 183px;
+    width: 120px;
+    background-image: url(Images/protien.jpg);
+    background-size: cover;
+  }
+  .img2 {
+    height: 183px;
+    width: 183px;
+    background-image: url(Images/pan.jpg);
+    background-size: cover;
+}
+.img3 {
+    height: 183px;
+    width: 183px;
+    background-image: url(Images/bedsheet.jpg);
+    background-size: cover;
+}
+.img4 {
+    height: 183px;
+    width: 183px;
+    background-image: url(Images/hooks.webp);
+    background-size: cover;
+}
+.img5 {
+    height: 183px;
+    width: 183px;
+    background-image: url(Images/bathroomacc.jpg);
+    background-size: cover;
+}
+/* sign-in */
+.signin {
+    height: 215px;
+    width: 1349px;
+}
+.signin-content {
+    height: 130px;
+    width: 1326px;
+    border: 1px solid grey;
+    position: absolute;
+    margin-top: 52px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.signin-title {
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 544px;
+}
+.button2 {
+    position: absolute;
+    margin-top: 59px;
+    margin-left: 532px;
+    height: 34px;
+    width: 265px;
+    border-radius: 5px;
+    background-color: #FFD814;
+    border: 2px solid #f7bd11;
+}
+.ifnew {
+    position: absolute;
+    margin-top: 97px;
+    margin-left: 591px;
+    display: flex;
+    font-size: 14px;
+}
+.starthere {
+    font-size: 14px;
+    font-family: math;
+    text-decoration: underline;
+    color: #238183;
+    margin-left: 5px;
+}
+.starthere:hover {
+    color: orangered;
+}
+.back2-top {
+    height: 37px;
+    background-color: #37475A;
+    color: #fff;
+    padding-top: 23px;
+    padding-left: 627px;
+    font-size: 17px;
+}
+.back2-top:hover {
+    background-color: #55606e;
+}
+.hsbox {
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+.help-section {
+    height: 400px;
+    width: 1300;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.diibe {
+    width: 13em;
+    height: 19em;
+    display:flex ;
+    flex-direction: column;}
+b {
+    font-size: 18px;
+}
+span {
+    font-size: 16px;
+    color: white;
+    padding-bottom: 6px;
+}
+.vidhu {
+    display: flex;
+}
