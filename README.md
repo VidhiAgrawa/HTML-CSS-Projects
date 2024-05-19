@@ -1,4 +1,4 @@
-#Screenshots for Clones are given velow
+#Screenshots for Clones are given below
 
 #AMAZON Clone Images.
 
