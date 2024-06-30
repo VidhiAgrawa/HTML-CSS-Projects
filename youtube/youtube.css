@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: math;
+}
+.navbar {
+    height: 4.5em;
+    width: 82.4em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navitem1 {
+    display: flex;
+    width: 11em;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -54px;
+}
+.menu{
+    font-size: 20px;
+}
+.logo {
+    background-image: url(youtubelogo.jpg);
+    background-size: cover;
+    height: 32px;
+    width: 118px;
+}
+.search {
+    display: flex;
+}
+input{
+    height: 3em;
+    width: 37em;
+    border-bottom-left-radius: 22px;
+    border-top-left-radius: 22px;
+    border: 1px solid #bdb7b7;
+}
+button {
+    width: 3.2em;
+    font-size: 17px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border: 1px solid #bdb7b7;
+    height: 2.45em;
+    background-color: #f1eeee;
+}
+.navitem2 {
+    display: flex;
+    height: 3em;
+    width: 38em;
+    justify-content: space-between;
+}
+.mic {
+    font-size: 18px;
+    background-color: #f1eeee;
+    border-radius: 50%;
+    height: 2.35em;
+    width: 2.35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navitem3 {
+    display: flex;
+    align-items: center;
+    width: 8.5em;
+    height: 3em;
+    justify-content: space-between;
+    margin-right: -35px;
+}
+.video {
+    font-size: 21px;
+}
+.pic {
+    background-image: url(ganu.jpg);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+input::placeholder{
+    font-size: 17px;
+    position: absolute;
+    margin-left: 17px;
+    margin-top: -3px;
+}
+.sidebar {
+    width: 14.5em;
+    height: 35.99em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+}
+.setting {
+    height: 2.3em;
+    width: 9em;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    border-radius: 13px;
+    margin-top: 14px;
+}
+.setting:hover{
+    background-color: #dcdcdc;
+}
+
+.sidedetail {
+    margin-left: 21px;
+    font-size: 18px;
+}
+.sidehead {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+::-webkit-scrollbar {
+    background: transparent;
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #b6b6b6;
+    border-radius: 10px;
+}
+.mainbody{
+    display: flex;
+}
+.mainnav {
+    height: 3em;
+    width: 65em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 17px;
+    align-items: center;
+}
+#color {
+    background-color: #dcdcdc;
+}
+.navset {
+    text-align: center;
+    height: 2em;
+    width: 5em;
+    background-color: #d2d2d2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainnav1 {
+    width: 3em;
+    color: white;
+    background: #1e1d1d;
+}
+.mainnav2{
+    width: 4em;
+}
+.mainnav3{
+    width: 10em;
+}
+.mainnav10{
+    width: 7em;
+}
+.main2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1 {
+    height: 200px;
+    width: 340px;
+    border: 2px solid black;
+    border-radius: 10px;
+    border: 2px solid rgb(182, 181, 181);
+    margin-top: 20px;
+}
+.box2 {
+    font-size: 14px;
+    height: 6em;
+    width: 22em;
+    margin-top: 16px;
+    display: flex;
+}
+p {
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: -180px;
+    color: #767070;
+    font-family: math;
+}
+.img {
+    background-image: url(ganu.jpg);
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: -15px;
+}
+.text {
+    margin-left: 16px;
+    font-size: 18px;
+    margin-top: 8px;
+    color: #262525;
+}
+
+.box1:hover {
+    animation: animate 1s ease-in-out;
+}
+
+
+
+
+
