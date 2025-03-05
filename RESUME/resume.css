@@ -1,0 +1,348 @@
+.leftside {
+    height: 1099px;
+    width: 868px;
+    /* background-color: burlywood; */
+    margin-left: 533px;
+    border: 5px solid black;
+}
+
+.box {
+    height: 1098px;
+    width: 50%;
+    background-color: #F3EEEA;
+    /* margin-top: 49px; */
+    padding-top: 1px;
+}
+
+.span {
+    height: 0px;
+    width: 0px;
+    border-left: 378px solid transparent;
+    border-right: 380px solid transparent;
+    border-bottom: 381px solid #EAD7BB;
+    transform: rotate(45deg);
+    margin-top: -58px;
+    margin-left: 356px;
+}
+
+
+.span2 {
+    height: 0px;
+    width: 0px;
+    border-left: 378px solid transparent;
+    border-right: 380px solid transparent;
+    border-bottom: 381px solid #865439;
+    transform: rotate(315deg);
+    margin-top: -381px;
+    margin-left: -245px;
+}
+
+.image {
+    height: 272px;
+    width: 274px;
+    /* background-color: antiquewhite; */
+    right: -89px;
+    transform: rotate(45deg);
+    position: absolute;
+    margin-top: 221px;
+} 
+
+.img {
+    background-image: url(mine.jpeg);
+    height: 272px;
+    width: 272px;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 32px 3px black;
+    transition: 1s;
+    display: block;
+}
+
+.img:hover{
+    box-shadow: 0 0 32px 3px white;
+    transform: scale(1.2);
+    z-index: 2px;
+}
+
+.span3 {
+    height: 0px;
+    width: 0px;
+    border-left: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 301px solid #865439;
+    transform: rotate(135deg);
+    margin-top: 519px;
+    margin-left: 463px;
+}
+
+.span4 {
+    height: 0px;
+    width: 0px;
+    border-left: 331px solid transparent;
+    border-right: 352px solid transparent;
+    border-bottom: 340px solid #EAD7BB;
+    transform: rotate(-134deg);
+    margin-top: -341px;
+    margin-left: -226px;
+}
+
+.heading {
+    height: 273px;
+    width: 121px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    right: -325px;
+    margin-top: 212px;
+    transform: rotate(135deg);
+}
+
+h1 {
+    margin-left: -97px;
+    transform: rotate(0deg);
+    font-size: 50px;
+    padding-left: 153px;
+    /* margin-right: -101px; */
+    font-family: math;
+    font-weight: bolder;
+    padding-top: 104px;
+    text-shadow: 0 0 12px black;
+    font-style: oblique;
+    text-decoration: underline 3px solid black;
+}
+
+.personaldetails {
+    height: 264px;
+    width: 426px;
+    /* background-color: aqua; */
+    position: absolute;
+    right: -22px;
+    margin-top: 366px;
+    transform: rotate(45deg);
+}
+
+h4 {
+    font-size: 25px;
+    font-family: math;
+    padding-top: 0px;
+    margin-left: 56px;
+    text-shadow: 0 0 12px black;
+    font-style: oblique;
+}
+
+h5 {
+    font-size: 25px;
+    font-family: math;
+    padding-top: 0px;
+    margin-left: 69px;
+    text-shadow: 0 0 12px black;
+    font-style: oblique;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: math;
+    padding-top: 50px;
+    margin-left: 148px;
+    text-shadow: 0 0 12px black;
+    font-style: oblique;
+}
+
+
+.call {
+    font-size: 26px;
+    font-family: math;
+    /* text-decoration: underline; */
+    font-style: oblique;
+    margin-left: 199px;
+    padding-top: 3%;
+    text-shadow: 0 0 12px black;
+}
+
+.personal {
+    height: 264px;
+    width: 426px;
+    /* background-color: aqua; */
+    position: absolute;
+    right: -345px;
+    margin-top: 189px;
+    transform: rotate(134deg);
+}
+
+.email {
+    font-size: 26px;
+    font-family: math;
+    /* text-decoration: underline; */
+    font-style: oblique;
+    margin-left: 133px;
+    padding-top: 7%;
+    text-shadow: 0 0 12px black;
+}
+
+.h {
+    transform: rotate(-90deg);
+    font-size: 58px;
+    margin-left: -13px;
+    margin-top: 138px;
+    font-family: math;
+    font-style: oblique;
+    font-weight: bolder;
+    text-decoration: underline 4px solid black;
+    text-shadow: 0 0 6px black;
+    transition: 2;
+    display: block;
+}
+
+.h:hover{
+    text-shadow : 0 0 14px white;
+}
+
+.heading{
+    transition: 1s;
+    display: block; 
+}
+
+.heading:hover{
+    text-shadow : 0 0 14px white;
+    transform: rotate(495deg) scale(1.2);
+    z-index: 2px;
+}
+
+.skills {
+    height: 420px;
+    width: 430px;
+    /* background-color: azure; */
+    transform: rotate(45deg);
+    position: absolute;
+    margin-top: 204px;
+    left: -108px;
+}
+
+.hobbies {
+    font-size: 37px;
+    transform: rotate(270deg);
+    font-family: math;
+    font-style: oblique;
+    font-weight: bolder;
+    margin-left: -344px;
+    margin-top: -29px;
+    text-shadow: 0 0 12px black;
+    display: block;
+    text-decoration: underline 3px solid black;
+}
+
+.work:hover{
+    text-shadow: 0 0 14px #272829;
+}
+
+.hobbies:hover{
+    text-shadow: 0 0 14px #272829;
+}
+
+.refrence:hover{
+    text-shadow: 0 0 14px #272829;
+}
+
+.education:hover{
+    text-shadow: 0 0 14px #272829;
+}
+
+.h1:hover{
+    text-shadow: 0 0 14px #272829;
+}
+
+.content {
+    transform: rotate(-90deg);
+    margin-top: 138px;
+    margin-left: -58px;
+    margin-right: 122px;
+    font-size: 23px;
+    font-family: math;
+    font-style: oblique;
+    /* font-weight: bolder; */
+    text-shadow: 0 0 13px grey;
+}
+
+.education {
+    font-size: 37px;
+    transform: rotate(-90deg);
+    margin-left: 9px;
+    margin-top: -78px;
+    font-family: math;
+    font-style: oblique;
+    font-weight: bolder;
+    text-shadow: 0 0 12px black;
+    text-decoration: underline 3px solid black;
+}
+
+.content2 {
+    transform: rotate(-90deg);
+    margin-top: -134px;
+    margin-left: 178px;
+    margin-right: -143px;
+    font-size: 23px;
+    font-family: math;
+    font-style: oblique;
+    /* font-weight: bolder; */
+    text-shadow: 0 0 13px grey;
+}
+
+.work {
+    font-size: 37px;
+    transform: rotate(-90deg);
+    margin-left: 417px;
+    margin-right: -287px;
+    margin-top: -64px;
+    font-family: math;
+    font-style: oblique;
+    font-weight: bolder;
+    text-shadow: 0 0 12px black;
+    text-decoration: underline 3px solid black;
+}
+
+.content3 {
+    transform: rotate(-90deg);
+    margin-top: -130px;
+    margin-left: 412px;
+    margin-right: -420px;
+    font-size: 23px;
+    font-family: math;
+    font-style: oblique;
+    /* font-weight: bolder; */
+    text-shadow: 0 0 13px grey;
+}
+
+.ref {
+    height: 261px;
+    width: 388px;
+    /* background-color: brown; */
+    position: absolute;
+    margin-top: 110px;
+    margin-right: 47px;
+    margin-left: -142px;
+    transform: rotate(45deg);
+}
+
+.refrence {
+    font-size: 37px;
+    transform: rotate(180deg);
+    margin-left: 53px;
+    margin-top: 214px;
+    font-family: math;
+    font-style: oblique;
+    font-weight: bolder;
+    text-shadow: 0 0 12px black;
+    text-decoration: underline 3px solid black;
+}
+
+
+.content4 {
+    transform: rotate(-180deg);
+    margin-top: -226px;
+    margin-left: 0px;
+    margin-right: 25px;
+    font-size: 23px;
+    font-family: math;
+    font-style: oblique;
+    /* font-weight: bolder; */
+    text-shadow: 0 0 13px grey;
+}
