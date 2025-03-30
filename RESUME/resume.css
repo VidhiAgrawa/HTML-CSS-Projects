@@ -1,7 +1,6 @@
 .leftside {
     height: 1099px;
     width: 868px;
-    /* background-color: burlywood; */
     margin-left: 533px;
     border: 5px solid black;
 }
@@ -10,7 +9,6 @@
     height: 1098px;
     width: 50%;
     background-color: #F3EEEA;
-    /* margin-top: 49px; */
     padding-top: 1px;
 }
 
@@ -40,7 +38,6 @@
 .image {
     height: 272px;
     width: 274px;
-    /* background-color: antiquewhite; */
     right: -89px;
     transform: rotate(45deg);
     position: absolute;
@@ -89,7 +86,6 @@
 .heading {
     height: 273px;
     width: 121px;
-    /* background-color: aquamarine; */
     position: absolute;
     right: -325px;
     margin-top: 212px;
@@ -101,7 +97,6 @@ h1 {
     transform: rotate(0deg);
     font-size: 50px;
     padding-left: 153px;
-    /* margin-right: -101px; */
     font-family: math;
     font-weight: bolder;
     padding-top: 104px;
@@ -113,7 +108,6 @@ h1 {
 .personaldetails {
     height: 264px;
     width: 426px;
-    /* background-color: aqua; */
     position: absolute;
     right: -22px;
     margin-top: 366px;
@@ -151,7 +145,6 @@ h3 {
 .call {
     font-size: 26px;
     font-family: math;
-    /* text-decoration: underline; */
     font-style: oblique;
     margin-left: 199px;
     padding-top: 3%;
@@ -161,7 +154,6 @@ h3 {
 .personal {
     height: 264px;
     width: 426px;
-    /* background-color: aqua; */
     position: absolute;
     right: -345px;
     margin-top: 189px;
@@ -171,7 +163,6 @@ h3 {
 .email {
     font-size: 26px;
     font-family: math;
-    /* text-decoration: underline; */
     font-style: oblique;
     margin-left: 133px;
     padding-top: 7%;
@@ -210,7 +201,6 @@ h3 {
 .skills {
     height: 420px;
     width: 430px;
-    /* background-color: azure; */
     transform: rotate(45deg);
     position: absolute;
     margin-top: 204px;

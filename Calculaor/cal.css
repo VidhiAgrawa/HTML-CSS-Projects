@@ -19,7 +19,6 @@
     font-family: 'Roboto';
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
     margin: 5rem auto;
     width: fit-content;
